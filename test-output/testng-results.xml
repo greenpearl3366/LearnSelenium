@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16065" started-at="2021-03-29T10:42:32Z" finished-at="2021-03-29T10:42:49Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.orangeHRM.testcases.Testcase_Login@4cf777e8]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="16065" started-at="2021-03-29T10:42:32Z" finished-at="2021-03-29T10:42:49Z">
+      <class name="com.orangeHRM.testcases.Testcase_Login">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.orangeHRM.testcases.Testcase_Login@4cf777e8]" name="startReport" is-config="true" duration-ms="262" started-at="2021-03-29T10:42:32Z" finished-at="2021-03-29T10:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.orangeHRM.testcases.Testcase_Login@4cf777e8]" name="setData" is-config="true" duration-ms="0" started-at="2021-03-29T10:42:32Z" finished-at="2021-03-29T10:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.orangeHRM.testcases.Testcase_Login@4cf777e8]" name="setUpClass" is-config="true" duration-ms="88" started-at="2021-03-29T10:42:32Z" finished-at="2021-03-29T10:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.orangeHRM.testcases.Testcase_Login@4cf777e8]" name="report" is-config="true" duration-ms="5" started-at="2021-03-29T10:42:33Z" finished-at="2021-03-29T10:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="loginlaunch()[pri:0, instance:com.orangeHRM.testcases.Testcase_Login@4cf777e8]" name="loginlaunch" is-config="true" duration-ms="9786" started-at="2021-03-29T10:42:33Z" finished-at="2021-03-29T10:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlaunch -->
+        <test-method status="PASS" signature="OrgangeHRMLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.testcases.Testcase_Login@4cf777e8]" name="OrgangeHRMLogin" duration-ms="5642" started-at="2021-03-29T10:42:43Z" data-provider="fetchdata" finished-at="2021-03-29T10:42:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Muthu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pearl]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrgangeHRMLogin -->
+        <test-method status="PASS" signature="apploggoff()[pri:0, instance:com.orangeHRM.testcases.Testcase_Login@4cf777e8]" name="apploggoff" is-config="true" duration-ms="82" started-at="2021-03-29T10:42:48Z" finished-at="2021-03-29T10:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apploggoff -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.orangeHRM.testcases.Testcase_Login@4cf777e8]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2021-03-29T10:42:49Z" finished-at="2021-03-29T10:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.orangeHRM.testcases.Testcase_Login@4cf777e8]" name="stopReport" is-config="true" duration-ms="271" started-at="2021-03-29T10:42:49Z" finished-at="2021-03-29T10:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.orangeHRM.testcases.Testcase_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

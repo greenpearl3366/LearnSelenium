@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.orangeHRM.testcases.Testcase_Login">
+        <methods>
+          <include name="startReport"/>
+          <include name="setUpClass"/>
+          <include name="report"/>
+          <include name="stopReport"/>
+          <include name="setData"/>
+          <include name="loginlaunch"/>
+          <include name="OrgangeHRMLogin" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="apploggoff"/>
+        </methods>
+      </class> <!-- com.orangeHRM.testcases.Testcase_Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
